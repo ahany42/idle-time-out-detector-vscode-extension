@@ -18,7 +18,7 @@ idleTimer = setTimeout(setIdle, idleTimeLimit);
 const setIdle = ()=>{
 	isIdle = true;
 	const idleDuration = Math.round((Date.now() - lastActiveTime)/60000);
-	vscode.window.showInformationMessage(`You have been idle for ${idleDuration} seconds.`);
+	vscode.window.showInformationMessage(`You have been idle for ${idleDuration} mins`);
 }
 function activate(context) {
 	const disposable = vscode.commands.registerCommand('idle-time-detector.helloWorld', function () {
