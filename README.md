@@ -1,4 +1,4 @@
-# Idle Time Detector Extension
+# Save My Time Extension
 
 The **Idle Time Detector** is a VSCode extension designed to track periods of inactivity in the editor. It helps improve time-tracking accuracy by detecting idle times and notifying you when you've been inactive for a certain period. Perfect for preventing inaccurate time logging and helping you identify when you took breaks.
 
