@@ -1,25 +1,26 @@
-# Save My Time Extension
-
-The **Save My Time** is a VSCode extension designed to track periods of inactivity in the editor. It helps improve time-tracking accuracy by detecting idle times and notifying you when you've been inactive for a certain period. Perfect for preventing inaccurate time logging and helping you identify when you took breaks.
-
----
+# Save My Time - VS Code Extension
+## Overview
+**Save My Time** is a Visual Studio Code extension designed to help you stay focused during long coding sessions by tracking your activity and notifying you when you’ve been idle for too long. If you’re prone to distractions, this extension is a game-changer!
 
 ## Features
-
-- **Idle Time Tracking**: Monitors user activity such as typing, clicking, and navigation.
-- **Idle Duration Notification**: Notifies you after a set period of inactivity (5 minutes).
----
+Idle Time Monitoring: Tracks your activity and alerts you if you're inactive for more than 5 minutes.
+Timer Increment: The timer increments every minute, giving you real-time feedback on your focus.
+Automatic Reset: Once you start typing or interacting with the editor again, the timer automatically resets to normal.
 
 ## Installation
+Open Visual Studio Code.
+Go to the Extensions panel on the left side.
+Search for Save My Time.
+Click Install.
+Usage
+Once installed, the extension starts monitoring your activity. If you are idle for over 5 minutes, you will receive a notification. The timer increments every minute, and the countdown will reset automatically once you begin working again.
 
-1. **Install the Extension**:
-   - Open Visual Studio Code.
-   - Go to the Extensions view by clicking on the Extensions icon in the Activity Bar.
-   - Search for **Save My Time** and click Install.
-
-2. Alternatively, you can install it manually by running:
-   ```bash
-   vsce install <path-to-extension>.vsix
+## Why Use This Extension?
+Stay on Track: Helps prevent distractions by reminding you to stay engaged.
+Boost Productivity: Track and manage your focus sessions effectively.
+Minimal Effort: Once installed, it works automatically in the background.
+Contributing
+Feel free to fork the repository and open pull requests. Contributions are welcome to improve and extend the functionality of this extension!
 
 ## License
-This extension is licensed under the MIT License.
+This extension is open-source and licensed under the MIT License.
