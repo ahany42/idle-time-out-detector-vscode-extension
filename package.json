@@ -3,21 +3,19 @@
   "displayName": "Save My Time",
   "publisher": "AlyHany",
   "description": "Effortlessly track your activity in VSCode and accurately monitor idle periods. This extension detects inactivity in the editor and logs idle durations to help you better manage your time.",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "engines": {
     "vscode": "^1.96.0"
   },
   "categories": [
     "Other"
   ],
-  "activationEvents": [
-    "onCommand:save-my-time.helloWorld"
-  ],
+  "activationEvents": [],
   "main": "./extension.js",
   "contributes": {
     "commands": [{
       "command": "save-my-time.helloWorld",
-      "title": "Save My Time"
+      "title": "save my time"
     }]
   },
   "repository": {
