@@ -1,6 +1,7 @@
 {
   "name": "idle-time-detector",
   "displayName": "idle time detector",
+  "publisher":"AlyHany",
   "description": "Effortlessly track your activity in VSCode and accurately monitor idle periods. This extension detects inactivity in the editor and logs idle durations to help you better manage your time.]",
   "version": "0.0.1",
   "engines": {
@@ -16,6 +17,10 @@
       "command": "idle-time-detector.helloWorld",
       "title": "idle-time-detector"
     }]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ahany42/idle-time-out-detector-vscode-extension.git"
   },
   "scripts": {
     "lint": "eslint .",
