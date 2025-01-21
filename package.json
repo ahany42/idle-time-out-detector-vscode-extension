@@ -1,5 +1,5 @@
 {
-  "name": "save my time",
+  "name": "save-my-time",
   "displayName": "save my time",
   "publisher":"AlyHany",
   "description": "Effortlessly track your activity in VSCode and accurately monitor idle periods. This extension detects inactivity in the editor and logs idle durations to help you better manage your time.]",
@@ -14,7 +14,7 @@
   "main": "./extension.js",
   "contributes": {
     "commands": [{
-      "command": "save my time.helloWorld",
+      "command": "save-my-time.helloWorld",
       "title": "save my time"
     }]
   },
