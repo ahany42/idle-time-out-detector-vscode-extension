@@ -31,7 +31,7 @@ const updateIdleStatus = () => {
 }
 
 function activate(context) {
-  const disposable = vscode.commands.registerCommand('idle-time-detector.helloWorld', function () {
+  const disposable = vscode.commands.registerCommand('save-my-time.helloWorld', function () {
     vscode.window.showInformationMessage('Hello World from idle time detector!');
   });
 
