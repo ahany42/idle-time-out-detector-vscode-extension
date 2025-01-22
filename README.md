@@ -11,7 +11,8 @@ Automatic Reset: Once you start typing or interacting with the editor again, the
 Open Visual Studio Code.
 Go to the Extensions panel on the left side.
 Search for Save My Time.
-Click Install.
+Click Install,
+or follow this link https://marketplace.visualstudio.com/items?itemName=AlyHany.save-my-time
 
 ## Usage
 Once installed, the extension starts monitoring your activity. If you are idle for over 5 minutes, you will receive a notification. The timer increments every minute, and the countdown will reset automatically once you begin working again.
