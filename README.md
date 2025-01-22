@@ -12,7 +12,8 @@ Open Visual Studio Code.
 Go to the Extensions panel on the left side.
 Search for Save My Time.
 Click Install.
-Usage
+
+## Usage
 Once installed, the extension starts monitoring your activity. If you are idle for over 5 minutes, you will receive a notification. The timer increments every minute, and the countdown will reset automatically once you begin working again.
 
 ## Why Use This Extension?
